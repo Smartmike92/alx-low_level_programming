@@ -16,18 +16,14 @@ int main(void)
 
 	while (number <= 57)
 	{
-		if (number == 57)
+		putchar(number);
+		number++;
+		if (number <= 57)
 		{
-			putchar(number);
-			number++;
-		}
-		else
-		{
-			putchar(number);
 			putchar(44);
 			putchar(32);
-			number++;
 		}
+
 	}
 	putchar('\n');
 	return (0);
